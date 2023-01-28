@@ -1,0 +1,46 @@
+:root {
+    background-color: rgb(218, 212, 141);
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(148, 39, 39);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.navigation li {
+    display: inline;
+    color: black;
+    list-style-type: none;
+
+}   
+
+.navigation a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.navigation a:hover {
+    opacity: 50%;
+    color: rgb(197, 232, 24);
+}
