@@ -1,12 +1,15 @@
 :root {
     background-color: rgb(218, 212, 141);
-
+    --redScarf: rgb(148, 39, 39);
+    --yellowScarf: rgb(218, 212, 141);
 }
 body{
     margin: 0;
     padding: 0;
+    
 }
 
+/* part one */
 
 .header {
 
@@ -14,7 +17,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(148, 39, 39);
+    background-color: var(--redScarf)
 }
 
 ul {
@@ -30,6 +33,7 @@ ul {
     display: inline;
     color: black;
     list-style-type: none;
+    font-size: larger;
 
 }   
 
@@ -43,4 +47,46 @@ ul {
 .navigation a:hover {
     opacity: 50%;
     color: rgb(197, 232, 24);
+}
+/* part two */
+section {
+    background-color: var(--redScarf);
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+h1{
+    font-size: xx-large;
+    text-shadow: 3px 3px 4px rgb(151, 131, 103);
+}
+
+.intro{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+section img {
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+
+button{
+  
+  background-color: var(--yellowScarf)
+  ;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 30px;
+ 
 }
