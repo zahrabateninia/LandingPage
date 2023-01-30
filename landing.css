@@ -8,6 +8,9 @@ body{
     padding: 0;
     
 }
+p {
+    font-size: larger;
+}
 
 /* part one */
 
@@ -17,7 +20,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: var(--redScarf)
+    background-color:  rgb(148, 39, 39);
 }
 
 ul {
@@ -131,4 +134,41 @@ button{
 .booksPic > img {
     width: 100%;
     
+}
+/* part three is started */
+.quote {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-basis: 600px; */
+    font-weight: 300;
+    font-size: xx-large;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 4px 4px 5px var(--yellowScarf);
+
+
+}
+.quote > p {
+    align-self: flex-end;
+    margin-right:60px;
+    margin-top: -10px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
+    text-shadow: none;
+}
+/* part four is started */
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    background-color: var(--yellowScarf);
+}
+.info > button {
+    justify-self: flex-end;
+    margin-right: 60px;
+    
+
 }
