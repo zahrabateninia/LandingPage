@@ -47,6 +47,7 @@ ul {
 .navigation a:hover {
     opacity: 50%;
     color: rgb(197, 232, 24);
+    text-decoration: overline underline;
 }
 /* part two */
 section {
@@ -73,13 +74,13 @@ h1{
 section img {
     margin-bottom: 50px;
     margin-top: 30px;
+    border-radius: 15px 50px 30px;
 
 }
 
 button{
   
-  background-color: var(--yellowScarf)
-  ;
+  background-color: var(--yellowScarf);
   border: 2px solid #111;
   border-radius: 8px;
   box-sizing: border-box;
@@ -99,20 +100,35 @@ button{
 }
 
 .books {
+    /* container */
     display:flex;
     flex-wrap: wrap;
-    flex: 1;
+    /* flex: 1; */
     justify-content: center;
-    gap: 40px;
+    /* gap: 40px;   */
     text-align: center;
-}
-.booksPic {
+    /* flex: 1 1 auto; */
+    align-items: space-around;
     
+    
+}
+.booksPic { 
+    /*just images of books */
+    /* flex items */
+        /* flex: 1 1 auto; */
         width: 20%;
         background-color: var(--redScarf);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-        0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin 25px;
-        padding:30px;
-      
+        min-width: 0px;
+        box-shadow: 0 4px 8px 0 var(--redScarf), 
+        0 6px 20px 0 var(--redScarf);
+        margin: 25px;
+        min-width: 300px; 
+        
+        
+        
+        
+}
+.booksPic > img {
+    width: 100%;
+    
 }
