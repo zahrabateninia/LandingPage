@@ -77,7 +77,8 @@ h1{
 section img {
     margin-bottom: 50px;
     margin-top: 30px;
-    border-radius: 15px 50px 30px;
+    border-radius: 15px 30px 30px;
+    margin-right: 60px;
 
 }
 
@@ -158,17 +159,31 @@ button{
     'Arial Narrow', Arial, sans-serif;
     text-shadow: none;
 }
-/* part four is started */
+/* info part is started */
 .info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 60px;
-    background-color: var(--yellowScarf);
+    border: 2px dotted black;
+    border-radius: 30px;
+    margin: 50px 100px;
+    padding: 10px;
+    /* width: fit-content; */
+    background-color: var(--redScarf);
 }
 .info > button {
-    justify-self: flex-end;
+    justify-self:center;
     margin-right: 60px;
-    
 
+
+    
+}
+
+footer{
+    background-color: black;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding:20px;
 }
