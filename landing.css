@@ -123,8 +123,8 @@ button{
         width: 20%;
         background-color: var(--redScarf);
         min-width: 0px;
-        box-shadow: 0 4px 8px 0 var(--redScarf), 
-        0 6px 20px 0 var(--redScarf);
+        /* box-shadow: 0 4px 8px 0 var(--redScarf), 
+        0 6px 20px 0 var(--redScarf); */
         margin: 25px;
         min-width: 300px; 
         
