@@ -107,28 +107,20 @@ button{
     /* container */
     display:flex;
     flex-wrap: wrap;
-    /* flex: 1; */
     justify-content: center;
-    /* gap: 40px;   */
     text-align: center;
-    /* flex: 1 1 auto; */
     align-items: space-around;
+    margin-bottom: 2.5rem;
     
     
 }
 .booksPic { 
-    /*just images of books */
-    /* flex items */
-        /* flex: 1 1 auto; */
         width: 20%;
         background-color: var(--redScarf);
         min-width: 0px;
         border-radius: 5px;
         margin: 25px;
         min-width: 300px; 
-        
-        
-        
         
 }
 .booksPic > img {
