@@ -162,18 +162,19 @@ button{
 .info {
     display: flex;
     flex-wrap: wrap;
+    padding: .2rem 1rem;
+    max-width: fit-content;
     justify-content: center;
+    align-items: center;
     gap: 60px;
-    border: 2px dotted black;
-    border-radius: 30px;
-    margin: 50px 100px;
-    padding: 10px;
-    /* width: fit-content; */
+    border-radius: 10px;
+    margin: 50px auto;
     background-color: var(--redScarf);
 }
 .info > button {
     justify-self:center;
     margin-right: 60px;
+    border: none;
 
 
     
