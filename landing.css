@@ -85,7 +85,9 @@ section img {
 button{
   
   background-color: var(--yellowScarf);
-  border: 2px solid #111;
+  border: none;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
   border-radius: 8px;
   box-sizing: border-box;
   color: #111;
@@ -95,6 +97,15 @@ button{
   height: 30px;
  
 }
+
+
+button:hover{
+  
+    background-color: transparent;
+    color: var(--yellowScarf);
+    border: 1px solid var(--yellowScarf);
+   
+  }
 /* part three */
 
 #title {
